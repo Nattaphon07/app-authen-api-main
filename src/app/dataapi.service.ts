@@ -16,4 +16,7 @@ export class DataapiService {
   login(datalog:any){
     return this.http.post('https://127.0.0.1/app-authen-api-main2/app-authen-api-main/login.php', datalog);
   }
+  logout(){
+    return this.http.post('https://127.0.0.1/app-authen-api-main2/app-authen-api-main/logout.php', {});
+  }
 }
