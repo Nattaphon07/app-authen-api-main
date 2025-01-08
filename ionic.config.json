@@ -1,0 +1,7 @@
+{
+  "name": "appauthen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>สมัครสมาชิก</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <br>
+  <ion-card>
+    <div class="text-center"><h2>เข้าสู่ระบบ</h2></div>
+    <div class="ion-padding">
+      <ion-input placeholder="Username" class="mt-4"
+      [(ngModel)]="txtusername" type="text" fill="solid"></ion-input>
+    </div>
+
+    <div class="ion-padding">
+      <ion-input placeholder="Password" class="mt-4"
+      [(ngModel)]="txtpassword" type="password" fill="solid"></ion-input>
+    </div>
+    <ion-button expand="block" color="primary" (click)="login()">ล็อคอิน</ion-button>
+    <ion-button expand="block" color="primary" (click)="gotoregister()">ไปหน้าสมัครสมาชิก</ion-button>
+  </ion-card>
+</ion-content>

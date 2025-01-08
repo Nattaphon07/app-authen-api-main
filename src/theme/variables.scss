@@ -1,0 +1,19 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-perpul: #733fee;
+	--ion-color-perpul-rgb: 115,63,238;
+	--ion-color-perpul-contrast: #ffffff;
+	--ion-color-perpul-contrast-rgb: 255,255,255;
+	--ion-color-perpul-shade: #6537d1;
+	--ion-color-perpul-tint: #8152f0;
+}
+
+.ion-color-perpul {
+	--ion-color-base: var(--ion-color-perpul);
+	--ion-color-base-rgb: var(--ion-color-perpul-rgb);
+	--ion-color-contrast: var(--ion-color-perpul-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-perpul-contrast-rgb);
+	--ion-color-shade: var(--ion-color-perpul-shade);
+	--ion-color-tint: var(--ion-color-perpul-tint);
+}
